@@ -184,7 +184,7 @@ Be sure to ⭐ this repository to stay updated with new examples and enhancement
 🔐 This project is protected under the [MIT License](https://mit-license.org/).
 
 ## Contact 📧
-Dimitris Roumpekas - your.email@example.com
+Dimitris Roumpekas - jimroumpi@gmail.com
 
 🔗 *Note: This is a Python script and requires a Python interpreter to run.*
 
