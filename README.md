@@ -326,7 +326,7 @@ Be sure to ⭐ this repository to stay updated with new examples and enhancement
 
 Contact 📧
 
-Dimitris Roumpekas - jimroumpi@gmail.com
+Dimitris Roumpekas  -  jimroumpi@gmail.com
 
 🔗 Note: This is a Python script and requires a Python interpreter to run.
 
