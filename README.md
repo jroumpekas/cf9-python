@@ -1,36 +1,64 @@
-# 📚 CF9 Python Learning Repository: From Core Syntax to Functions & Functional Programming 🐍
+📚 CF9 Python Learning Repository: From Core Syntax to OOP, Caching & File Handling 🐍
 
-![Total Views](https://views.whatilearened.today/views/github/jroumpekas/cf9-python.svg)![Python](https://img.shields.io/badge/language-Python-blue.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/jroumpekas/cf9-python) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+  
 
-## Overview 🌟
-Welcome to my Python learning repository from **Coding Factory 9**. This is a hands-on collection of scripts, examples, and mini-lessons I'm building as I learn Python. The repository starts with core syntax and data structures, then gradually moves into functions, object behavior, recursion, lambda expressions, and functional programming tools such as `map()`, `filter()`, and `reduce()`.
+Overview 🌟
 
-## About the Repository 📖
+Welcome to my Python learning repository from Coding Factory 9. This is a hands-on collection of scripts, examples, and mini-lessons I'm building as I learn Python. The repository starts with core syntax and data structures, then gradually moves into functions, object behavior, recursion, lambda expressions, functional programming tools, memoization, decorators, generators, object-oriented programming, logging, and file handling.
+
+About the Repository 📖
+
 This repo takes a practical approach to learning Python, working through core language features one small, focused example at a time. Each lesson lives in its own folder with source code and a detailed README explaining the concept, the code, expected output, and a few exercises.
 
-## What You Will Practice 🧠
+What You Will Practice 🧠
 
 This repository is designed as a gradual learning path:
 
-- **Python basics**: values, strings, numbers, input, and formatting.
-- **Control flow**: conditions, loops, truthy/falsy logic, and short-circuit behavior.
-- **Collections**: lists, tuples, sets, dictionaries, nested lists, and stack behavior.
-- **Functions**: parameters, return values, optional arguments, `*args`, `**kwargs`, and scope.
-- **Object behavior**: identity, mutability, shallow copies, and references.
-- **Functional tools**: lambda expressions, `map()`, `filter()`, and `reduce()`.
-- **Introductory OOP**: simple classes, properties, inheritance, and encapsulation.
+Python basics: values, strings, numbers, input, and formatting.
 
-## Repository Contents 📂
-### Practical Applications 🛠️
-- Data Manipulation 🔢
-- User Interaction ⌨️
-- Basic Algorithms 🔄
-- Mathematical Demonstrations 📏
-- Function Design ⚙️
-- Recursion & Iteration 🔁
-- Functional Programming Tools 🧩
+Control flow: conditions, loops, truthy/falsy logic, and short-circuit behavior.
 
-## 🐍 Python - Chapter01
+Collections: lists, tuples, sets, dictionaries, nested lists, and stack behavior.
+
+Functions: parameters, return values, optional arguments, *args, **kwargs, and scope.
+
+Object behavior: identity, mutability, shallow copies, and references.
+
+Functional tools: lambda expressions, map(), filter(), and reduce().
+
+Performance & caching: memoization, lru_cache, timing functions, and decorators.
+
+Generators & iterators: yield, infinite generators, custom iterators, and iterator protocol.
+
+Introductory OOP: simple classes, properties, inheritance, encapsulation, hashability, abstract classes, and duck typing.
+
+Files & logging: logging configuration, error tracing, and basic file CRUD operations.
+
+Repository Contents 📂
+
+Practical Applications 🛠️
+
+Data Manipulation 🔢
+
+User Interaction ⌨️
+
+Basic Algorithms 🔄
+
+Mathematical Demonstrations 📏
+
+Function Design ⚙️
+
+Recursion & Iteration 🔁
+
+Functional Programming Tools 🧩
+
+Performance & Caching ⚡
+
+OOP, Protocols & Abstractions 🧱
+
+Logging & File Handling 🪵
+
+🐍 Python - Chapter01
 
 <table>
   <tr>
@@ -70,7 +98,7 @@ This repository is designed as a gradual learning path:
   </tr>
 </table>
 
-## 🐍 Python - Chapter02
+🐍 Python - Chapter02
 
 <table>
   <tr>
@@ -115,7 +143,7 @@ This repository is designed as a gradual learning path:
   </tr>
 </table>
 
-## 🐍 Python - Chapter03
+🐍 Python - Chapter03
 
 <table>
   <tr>
@@ -150,7 +178,7 @@ This repository is designed as a gradual learning path:
   </tr>
 </table>
 
-## 🐍 Python - Chapter04
+🐍 Python - Chapter04
 
 <table>
   <tr>
@@ -185,41 +213,123 @@ This repository is designed as a gradual learning path:
   </tr>
 </table>
 
-### Educational Value 🎓
-- Small, focused scripts that each isolate one concept
-- Worked examples and exercises that build understanding step by step
+🐍 Python - Chapter05
 
-### Well-Documented Code 📄
-- Each lesson folder includes a detailed README with objectives, key concepts, code demos, and exercises
+<table>
+  <tr>
+    <td>01. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/01.%20List%20Comprehension%20Map%20Demo" title="Compares list comprehensions with map(), filter(), lambda, and named functions.">List Comprehension, Map & Filter Demo</a></td>
+    <td>02. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/02.%20Inner%20Functions" title="Calculates weighted grades using nested helper functions and tuple returns.">Inner Functions</a></td>
+    <td>03. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/03.%20Function%20Arguments" title="Demonstrates positional arguments, optional parameters, *args, and **kwargs.">Function Arguments</a></td>
+  </tr>
+  <tr>
+    <td>04. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/04.%20Closure%20Demo" title="Uses closures and nonlocal state to create department ID generators.">Closure Demo</a></td>
+    <td>05. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/05.%20Student%20Enrollment" title="Uses *students, keyword-only parameters, defaults, and **kwargs.">Student Enrollment</a></td>
+    <td>06. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/06.%20Average%20Calculator" title="Calculates averages with *args and a ternary expression.">Average Calculator</a></td>
+  </tr>
+  <tr>
+    <td>07. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/07.%20Calculator%202" title="Menu-driven calculator with inner functions, reduce(), and match/case.">Calculator 2</a></td>
+    <td>08. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/08.%20Event%20Logger" title="Logs events with datetime timestamps and flexible **kwargs metadata.">Event Logger</a></td>
+    <td>09. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/09.%20Garage%20Demo" title="Simulates a garage queue using deque, append(), popleft(), and match/case.">Garage Demo</a></td>
+  </tr>
+  <tr>
+    <td>10. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/10.%20Functions%20as%20Arguments" title="Passes arithmetic functions as arguments to a reusable calculator.">Functions as Arguments</a></td>
+    <td>11. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/11.%20Grade%20Transformations" title="Groups grade upscaling, filtering, categorization, and average calculations.">Grade Transformations</a></td>
+    <td>12. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/12.%20Iterators" title="Explains iter(), next(), StopIteration, and custom iterator classes.">Iterators</a></td>
+  </tr>
+  <tr>
+    <td>13. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/13.%20Factorial%20Iterator" title="Custom iterator that produces factorial values from 0! to n!.">Factorial Iterator</a></td>
+    <td>14. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/14.%20Simple%20Generator" title="Introduces yield, generator objects, next(), and preserved generator state.">Simple Generator</a></td>
+    <td>15. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/15.%20Generators" title="Common README for factorial and Fibonacci infinite generators.">Generators</a></td>
+  </tr>
+  <tr>
+    <td>16. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/16.%20Timing%20Function" title="Measures execution time using time.perf_counter().">Timing Function</a></td>
+    <td>17. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/17.%20Time%20Decorator" title="Builds a reusable decorator that measures function execution time.">Time Decorator</a></td>
+    <td>18. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/18.%20Logging%20Apps" title="Common README for basic and improved logging examples.">Logging Apps</a></td>
+  </tr>
+  <tr>
+    <td>19. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/19.%20Demo%20of%20Copies" title="Compares shallow copy techniques with copy.deepcopy().">Demo of Copies</a></td>
+    <td>20. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/20.%20Set%20Operations" title="Demonstrates intersection, union, difference, and symmetric difference.">Set Operations</a></td>
+    <td>21. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/21.%20Memoization%20Fibonacci" title="Uses custom memoization decorators and cache statistics for Fibonacci.">Memoization Fibonacci</a></td>
+  </tr>
+  <tr>
+    <td>22. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/22.%20LRU%20Cache%20Demo" title="Uses functools.lru_cache to optimize recursive Fibonacci.">LRU Cache Demo</a></td>
+    <td>23. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/23.%20Multiple%20Decorators" title="Combines logging and timing decorators and explains execution order.">Multiple Decorators</a></td>
+    <td>24. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/24.%20Unmodifiable%20Tuples" title="Shows tuple immutability and mutable elements inside tuples.">Unmodifiable Tuples</a></td>
+  </tr>
+  <tr>
+    <td>25. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/25.%20Dictionary%20Comprehensions" title="Creates dictionaries with calculated values and optional filtering.">Dictionary Comprehensions</a></td>
+    <td>26. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/26.%20Count%20Frequencies" title="Counts item frequencies with dicts, get(), manual loops, and Counter.">Count Frequencies</a></td>
+    <td>27. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/27.%20Student%20Grades" title="Filters students by average grade using dictionary comprehension.">Student Grades</a></td>
+  </tr>
+  <tr>
+    <td>28. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/28.%20Find%20Min%20Value" title="Uses min() with key functions on dictionary data.">Find Min Value</a></td>
+    <td>29. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/29.%20Sales%20Analysis" title="Analyzes monthly sales with dictionaries, comprehensions, totals, averages, max, and min.">Sales Analysis</a></td>
+    <td>30. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/30.%20Property%20Function" title="Creates managed attributes with getter, setter, deleter, and property().">Property Function</a></td>
+  </tr>
+  <tr>
+    <td>31. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/31.%20Point%20Class" title="2D Point class with properties, validation, movement, and computed distance.">Point Class</a></td>
+    <td>32. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/32.%20Hashable%20Point" title="Implements __eq__(), __hash__(), and __repr__() for dictionary keys.">Hashable Point</a></td>
+    <td>33. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/33.%20Iterable%20Data%20Class" title="Custom collection supporting iteration, indexing, slicing, len(), and unpacking.">Iterable Data Class</a></td>
+  </tr>
+  <tr>
+    <td>34. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/34.%20Abstract%20Class" title="Uses ABC and abstractmethod for DAO and inventory interfaces.">Abstract Class</a></td>
+    <td>35. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/35.%20Duck%20Typing" title="Demonstrates behavior-based polymorphism with drive() methods.">Duck Typing</a></td>
+    <td>36. <a href="https://github.com/jroumpekas/cf9-python/tree/main/chapter05/36.%20File%20Operations" title="Performs file create, read, update, and delete operations with os and open().">File Operations</a></td>
+  </tr>
+</table>
 
-## Chapter Learning Path 🧭
+Educational Value 🎓
 
-- **Chapter01**: Core syntax, primitive data types, literals, printing, arithmetic, strings, input, and basic expressions.
-- **Chapter02**: Collections, loops, dictionaries, truthy/falsy values, functions, stack implementation, and introductory OOP.
-- **Chapter03**: Object identity, mutability, conditionals, small algorithms, string processing, HTTP error handlers, and a password generator.
-- **Chapter04**: Function annotations, generics, scope, list copying, optional parameters, `*args`, `**kwargs`, recursion, lambda, `map()`, `filter()`, and `reduce()`.
+Small, focused scripts that each isolate one concept
 
-## Getting Started 🚀
+Worked examples and exercises that build understanding step by step
+
+Progressive coverage from beginner syntax to decorators, generators, OOP protocols, logging, and file operations
+
+Well-Documented Code 📄
+
+Each lesson folder includes a detailed README with objectives, key concepts, code demos, and exercises
+
+Chapter Learning Path 🧭
+
+Chapter01: Core syntax, primitive data types, literals, printing, arithmetic, strings, input, and basic expressions.
+
+Chapter02: Collections, loops, dictionaries, truthy/falsy values, functions, stack implementation, and introductory OOP.
+
+Chapter03: Object identity, mutability, conditionals, small algorithms, string processing, HTTP error handlers, and a password generator.
+
+Chapter04: Function annotations, generics, scope, list copying, optional parameters, *args, **kwargs, recursion, lambda, map(), filter(), and reduce().
+
+Chapter05: Advanced functions, closures, generators, decorators, memoization, dictionary comprehensions, OOP data model methods, abstract classes, duck typing, logging, and file operations.
+
+Getting Started 🚀
+
 No installation is required beyond Python itself:
-1. Ensure Python 3.x is installed on your machine.
-2. Clone the repository: `git clone https://github.com/jroumpekas/cf9-python.git`
-3. Navigate to the lesson folder of interest inside `chapter01`, `chapter02`, `chapter03`, or `chapter04`.
-4. Open a terminal or command prompt.
-5. Run a script with `python <filename>.py`, and read its README for an explanation.
 
-## 📢 Stay Updated
+Ensure Python 3.x is installed on your machine.
+
+Clone the repository: git clone https://github.com/jroumpekas/cf9-python.git
+
+Navigate to the lesson folder of interest inside chapter01, chapter02, chapter03, chapter04, or chapter05.
+
+Open a terminal or command prompt.
+
+Run a script with python <filename>.py, and read its README for an explanation.
+
+📢 Stay Updated
 
 Be sure to ⭐ this repository to stay updated with new examples and enhancements!
 
-## 📄 License
-🔐 This project is protected under the [MIT License](https://mit-license.org/).
+📄 License
 
-## Contact 📧
+🔐 This project is protected under the MIT License.
+
+Contact 📧
+
 Dimitris Roumpekas - jimroumpi@gmail.com
 
-🔗 *Note: This is a Python script and requires a Python interpreter to run.*
+🔗 Note: This is a Python script and requires a Python interpreter to run.
 
----
 <h1 align="center">Happy Coding 👨‍💻</h1>
 
 <p align="center">
